@@ -93,3 +93,23 @@
 #form1 {
 	background-color: rgba(2,12,27,0.7);
 }
+
+#facebook1 {
+	height: 10rem;
+	width: 15rem;
+	border: none;
+	margin: none;
+	
+}
+
+#instagram1 {
+	height: 10rem;
+	width: 10rem;
+}
+
+
+#linkedin {
+	height: 10rem;
+	width: 10rem;
+}
+
