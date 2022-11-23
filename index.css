@@ -1,0 +1,21 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Bootstrap Font*/
+/*body {
+	font-family: "Helvetica Neue", sans-serif;
+}*/
+
+/*Main Background*/
+#mainbg {
+	background-color: rgba(10, 25, 47, 1.0);
+}
+
+/*Font Properties*/
+* {
+	font-family: montserrat;
+}
