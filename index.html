@@ -23,7 +23,8 @@
 <body class="text-center text-light" id="mainbg">
 
 	<!-- NavBar Section Start -->
-	<nav class="navbar navbar-expand-lg navbar-dark pt-5 offset-1" id="navbar-main">
+	<div id="navbar1">
+	<nav class="navbar navbar-expand-lg navbar-dark pt-2 offset-1" id="navbar-main">
 		
 		<a class="navbar-brand" href="index.html"><img src="./images/cid-logo.png" width="90" height="90"></a></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +40,7 @@
 					<a class="nav-link" href="#exp-main">Experience</a>
 				</li>
 				<li class="nav-item p-2">
-					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="#myworks">Projects</a>
 				</li>
 				<li class="nav-item p-2" id="contact-tab">
 					<a class="nav-link" href="#">Contact</a>
@@ -47,12 +48,13 @@
 			</ul>
 		</div>
 	</nav>
+	</div>
 	<!-- NavBar Section End -->
 	
 
 	<!-- Welcome page Section Start -->
 
-	<div class="container-fluid text-justify bg-dark" id="welcome-page">
+	<div class="container-fluid text-justify" id="welcome-page">
 			
 		<div class="pl-5 d-flex flex-column" id="welcome-page-2">
 			<div class="text-light" id="welcome-page-1">
@@ -75,7 +77,7 @@
 
 	<!-- About me Section Start  -->
 		
-	<div  id="about-page" class="container-fluid text-justify bg-dark text-center">
+	<div  id="about-page" class="container-fluid text-justify text-center mt-4">
 			<h2 >A Little Bit About Me</h2>
 		<div class="mb-4 row mt-4 justify-content-around">
                 <div class="col-md-6 col-sm-12 order-2 order-md-1">
@@ -172,7 +174,7 @@
 						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body bg-dark">
 								
-								<ul class="alta-ul">
+								<ul id="alta-ul">
 									<li>Single handedly running the MIS department</li>
 									<li>Responsible for all the projects, transactions and negotiations in all suppliers of MIS department</li>
 									<li>Supporting the employee if they have problem on their computer hardware or software, printer, telephone and assisting on system personally or via telephone or cellphone.</li>
@@ -197,6 +199,104 @@
 	</div>
 
 		<!-- Experience section end -->
+
+		<!-- Projects Section Start -->
+		<div id="myworks">
+			<h2>My Works</h2>
+		<div class="d-flex flex-lg-row flex-column align-items-center justify-content-center" >
+
+                <!-- First Website Start -->
+                <div class="p-3">
+                    <img class="img-fluid" src="./images/mywebsite.png">
+                    <h5 class="p-2">My First Website Project using HTML, CSS and Bootstrap</h5>
+                   <!--  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+                </div>
+                
+
+                <!-- Node JS Card Start -->
+                <div class="p-3">
+                    <img class="img-fluid" src="https://res.cloudinary.com/practicaldev/image/fetch/s--X1qyxgQM--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/238angygrj6cj768j9es.png">
+                    <h5 class="p-2">My First Node.JS Project</h5>
+                   <!--  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
+                </div>
+               
+
+                <!-- E commerce Card Start -->
+                <div class="p-3">
+                    <img class="img-fluid" src="./images/lazada.png">
+                    <h5 class="p-2">My First E-Commerce Website Project</h5>
+                <!--     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+                </div>
+         </div>
+         </div>
+        <!-- Projects Section End -->
+
+
+        <!-- Contact Form Section Start -->
+				<div class="min-vh-100 p-5" id="contactme">
+					
+					<h2 class="text-light">Contact Me</h2>
+					<div class="row mt-3">
+						<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 p-3 rounded" id="form1">
+							<div class="form-group">
+								<label class="text-light" for="name">Name:</label>
+								<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="exampleInputEmail1">Email address:</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="contact">Contact Number:</label>
+								<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
+							</div>
+							<div>
+								<label class="text-light" for="concern">Concern</label>
+								<select class="form-control" id="concern">
+									<option>NA</option>
+									<option>Quotation</option>
+									<option>Appointment</option>
+									<option>Follow-up</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label class="text-light">Message:</label>
+								<textarea class="form-control" id="message" rows="7"></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+						
+							
+						</form>
+					</div>
+
+				</div>
+				<!-- Contact Form Section End -->
+
+
+				
+
+				<!-- footer Section -->
+				<div class="bg-primary text-center fixed-bottom p-1 text-light">
+            All assets are used for educational purposes only.
+        </div>
+        </table>
+        <!-- End of Footer -->
+
 
 
 

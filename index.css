@@ -15,8 +15,13 @@
 /*Font Properties*/
 * {
 	font-family: 'montserrat', sans-serif;
+	scroll-behavior: smooth;
 }
 
+/*nav bar code*/
+#navbar1 {
+	background-color: rgba(2,12,27,0.7);
+}
 
 
 /*welcome page code*/
@@ -76,4 +81,15 @@
 
 #alta-ul {
 	list-style-type: none;
+}
+
+
+/*Contact form code*/
+
+#contactme {
+	background-color: rgba(2,12,27,0.7);
+}
+
+#form1 {
+	background-color: rgba(2,12,27,0.7);
 }
