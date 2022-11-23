@@ -6,10 +6,6 @@
 
 }
 
-/*Bootstrap Font*/
-/*body {
-	font-family: "Helvetica Neue", sans-serif;
-}*/
 
 /*Main Background*/
 #mainbg {
@@ -21,9 +17,7 @@
 	font-family: 'montserrat', sans-serif;
 }
 
-#contact-tab {
-	color: whitesmoke!important;
-}
+
 
 /*welcome page code*/
 
@@ -31,6 +25,7 @@
 	margin-bottom: 5rem;
 	margin-top: 5rem;
 	height: 70vh;
+
 
 }
 
@@ -51,6 +46,30 @@
 /*About me code*/
 #about-page {
 	margin-bottom: 5rem;
-	height: 70vh;
+/*	height: 60vh;*/
 
+}
+
+
+#img-ian {
+	height: clamp(27vh, 35vh, 40vh);
+	padding-bottom: 1rem;
+}
+
+
+
+/*Experience code*/
+#exp-main {
+	margin-bottom: 5rem;
+/*	height: 70vh;*/
+	
+}
+
+#collapse-smx {
+	background-color: rgba(10, 25, 47, 1.0);
+}
+
+
+#smx-ul {
+	list-style-type: none;
 }

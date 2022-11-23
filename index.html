@@ -23,7 +23,7 @@
 <body class="text-center text-light" id="mainbg">
 
 	<!-- NavBar Section Start -->
-	<nav class="navbar navbar-expand-lg navbar-dark pt-5 offset-1">
+	<nav class="navbar navbar-expand-lg navbar-dark pt-5 offset-1" id="navbar-main">
 		
 		<a class="navbar-brand" href="index.html"><img src="./images/cid-logo.png" width="90" height="90"></a></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
 					<a class="nav-link" href="#about-page">About me<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item p-2">
-					<a class="nav-link" href="about-page">Experience</a>
+					<a class="nav-link" href="#exp-main">Experience</a>
 				</li>
 				<li class="nav-item p-2">
 					<a class="nav-link" href="#">Projects</a>
@@ -74,20 +74,115 @@
 
 
 	<!-- About me Section Start  -->
+		
 	<div  id="about-page" class="container-fluid text-justify bg-dark text-center">
-			<h2>About Me:</h2>
-		<div class="mb-4 p4 row mt-4" >
+			<h2 >A Little Bit About Me</h2>
+		<div class="mb-4 row mt-4 justify-content-around">
                 <div class="col-md-6 col-sm-12 order-2 order-md-1">
                     <h5 class="p-3">Christoper Ian de Alday</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="text-justify">Hey! My name is Ian and I'm a web developer with a passion for front end and back end development. I already have 5 years of experience working on a different companies as an IT. With that I can proudly say that I'm well equipped when it comes to on how to troubleshoot things that is related to technology, system administrator, technical thinking, project handling, and managing IT Department of an establishment. Lately, I realize that my weakness on my career is I don't have any expertise on any programming language. That's why right now I'm currently studying at Zuitt Coding Bootcamp and aspiring to become a great software engineer someday.</p>
+
+                    <p class="text-justify">When I'm not on the computer, I enjoy traveling, adventure, mobile games, eating and watching movies as these are my stress reliever.</p>
+
                 </div>
-                <div class="col-md-6 col-sm-12 order-1 order-sm-1">
-                    <img class="img-fluid" src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg"/>
+               <div class="col-md-6 col-sm-12 order-1 order-sm-1">
+                    <img class="img-fluid" src="./images/ian.jpeg"/ id="img-ian">
                 </div>
             </div>
-
-	</div>
+       </div>     
 	<!-- About me section end -->
+
+
+
+
+	<!-- Experience Section Start  -->
+	
+	
+	<div class="container-fluid" id="exp-main">		
+		<h2>Professional Experience</h2>
+
+		<!-- recent job -->
+		<div class="mb-4 p-4 row mt-4">
+			<div class="col-md-6 col-sm-12 order-2 order-md-1 d-flex-column">
+				
+				
+				<h5>Asst. IT Manager <a href="https://www.smxconventioncenter.com/">@ SMX Convention Center</a></h5>
+				<p>JUNE 24, 2019 – November 6, 2022)</p>
+
+				<div id="accordion">
+					<div class="card bg-dark" >
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Duties and Responsibilities
+								</button>
+							</h5>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body bg-dark">
+								<ul id="smx-ul">
+									<li>Administrating Systems: EBMS (Events and Banquets), WINPARK (Parking System)</li>
+									<li>Supporting the employee if they have problem on their computer hardware or software, printer, telephone and assisting on system personally or via telephone or cellphone</li>
+									<li>For SMX Branches we assist them through remote and phone call or video call</li>
+									<li>Administrating Employees Accounts (Active Directory)</li>
+									<li>Administrating Employees Accounts (Active Directory)</li>
+									<li>Operating CCTV and Server Room</li>
+									<li>Troubleshooting computers, printer, telephone, CCTV and NVR</li>
+									<li>Network Infrastructure planning and troubleshooting</li>
+									<li>Securing, maintaining and troubleshooting Wi-Fi of SMX using Aruba Controller</li>
+									<li>Responsible for Parking System, Autopay Machines (for parking) and Vendo Machines</li>
+									<li>Responsible for the Large Format Display(LFD) and PYLON of SMX</li>
+									<li>Assisting guest and employees on Wi – Fi if they can’t connect</li>
+									<li>Cabling, installation, configuration of CCTV and NVR</li>
+									<li>Managing Yeastar PBX for telephone (PABX, telephone and Locals)</li>
+									<li>Securing, troubleshooting and maintaining all the IT equipment’s like switch, firewall, router, printers and others. </li>
+									<li>Develop and manage effective working relationships with other departments, groups and personnel.</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-12 order-1 order-sm-1">
+				<img class="img-fluid" src="./images/smx-img.jpg"/>
+			</div>
+		</div>
+
+
+		<!-- 1st job -->
+		<div class="mb-4 mt-4 p-4 row">
+			<div class="col-md-6 col-sm-12 order-2 order-md-2">
+
+				<h5>MIS Officer II <a href="https://www.facebook.com/altadtagaytayhotel/">@ Alta D' Tagaytay Hotel</a></h5>
+				<p>JUNE 24, 2019 – November 6, 2022)</p>
+
+				<div id="accordion">
+					<div class="card bg-dark" >
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Duties and Responsibilities
+								</button>
+							</h5>
+						</div>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body bg-dark">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 order-sm-1">
+				<img class="img-fluid" src="./images/alta.jpg"/>
+			</div>
+		</div>
+	</div>
+	<!-- Experience section end -->
 
 
 
