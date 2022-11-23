@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 /*Bootstrap Font*/
@@ -17,5 +18,39 @@
 
 /*Font Properties*/
 * {
-	font-family: montserrat;
+	font-family: 'montserrat', sans-serif;
+}
+
+#contact-tab {
+	color: whitesmoke!important;
+}
+
+/*welcome page code*/
+
+#welcome-page {
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+	height: 70vh;
+
+}
+
+#welcome-page-1 {
+	min-height: 20vh;
+	font-size: clamp(1.7rem, 5vw, 5vh);
+/*	height: 100%;*/
+/*	width: 100%;*/
+}
+
+
+
+#welcome-page-3 {
+	font-size: clamp(1rem, 1.7vw, 5vh);
+}
+
+
+/*About me code*/
+#about-page {
+	margin-bottom: 5rem;
+	height: 70vh;
+
 }

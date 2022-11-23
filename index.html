@@ -20,29 +20,75 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
-<body class="text-center" id="mainbg">
+<body class="text-center text-light" id="mainbg">
 
 	<!-- NavBar Section Start -->
-	<nav class="navbar navbar-expand-lg navbar-dark">s
-		<a class="navbar-brand" href="#">Christoper Ian de Alday</a>
+	<nav class="navbar navbar-expand-lg navbar-dark pt-5 offset-1">
+		
+		<a class="navbar-brand" href="index.html"><img src="./images/cid-logo.png" width="90" height="90"></a></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
+
+		<div class="collapse navbar-collapse offset-md-7 col-md-3" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+				<li class="nav-item active p-2">
+					<a class="nav-link" href="#about-page">About me<span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item p-2">
+					<a class="nav-link" href="about-page">Experience</a>
+				</li>
+				<li class="nav-item p-2">
 					<a class="nav-link" href="#">Projects</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Tools</a>
+				<li class="nav-item p-2" id="contact-tab">
+					<a class="nav-link" href="#">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<!-- NavBar Section End -->
+	
+
+	<!-- Welcome page Section Start -->
+
+	<div class="container-fluid text-justify bg-dark" id="welcome-page">
+			
+		<div class="pl-5 d-flex flex-column" id="welcome-page-2">
+			<div class="text-light" id="welcome-page-1">
+                    <div>Hi</div>
+                    <div>I'm Christoper Ian</div>
+                    <div>Full-stack Web Developer</div>                  
+            </div>
+
+            <div class="text-light d-flex flex-column align-items-left" id="welcome-page-3">
+                    <div>As a designer and developer, I help companies around the world amazing websites,</div>
+                    <div>app and services that are simple, but elegant and easy to use</div>
+                                 
+            </div>
+        </div>
+
+	</div>
+
+	<!-- welcome page Section end -->
+
+
+	<!-- About me Section Start  -->
+	<div  id="about-page" class="container-fluid text-justify bg-dark text-center">
+			<h2>About Me:</h2>
+		<div class="mb-4 p4 row mt-4" >
+                <div class="col-md-6 col-sm-12 order-2 order-md-1">
+                    <h5 class="p-3">Christoper Ian de Alday</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 order-1 order-sm-1">
+                    <img class="img-fluid" src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg"/>
+                </div>
+            </div>
+
+	</div>
+	<!-- About me section end -->
+
 
 
 
