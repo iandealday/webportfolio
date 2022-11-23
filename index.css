@@ -23,14 +23,17 @@
 	background-color: rgba(2,12,27,0.7);
 }
 
+#cid-logo-top {
+	height: 5rem;
+	width: 5rem;
+}
+
 
 /*welcome page code*/
-
 #welcome-page {
 	margin-bottom: 5rem;
 	margin-top: 5rem;
 	height: 70vh;
-
 
 }
 
@@ -95,21 +98,28 @@
 }
 
 #facebook1 {
-	height: 10rem;
-	width: 15rem;
+	height: 7rem;
+	width: 12rem;
 	border: none;
 	margin: none;
-	
+
 }
 
 #instagram1 {
-	height: 10rem;
-	width: 10rem;
+	height: 7rem;
+	width: 7rem;
 }
 
 
 #linkedin {
-	height: 10rem;
-	width: 10rem;
+	height: 7rem;
+	width: 7rem;
 }
+
+
+#cid-logo {
+	height: 7rem;
+	width: 7rem;
+}
+
 
