@@ -65,13 +65,10 @@
 }
 
 
-
-
-
 /*welcome page code*/
 #welcome-page {
 	margin-bottom: 5rem;
-	margin-top: 5rem;
+	margin-top: 7rem;
 	height: 70vh;
 	width: 70%;
 
@@ -84,10 +81,14 @@
 	/*	width: 100%;*/
 }
 
-
-
 #welcome-page-3 {
 	font-size: clamp(1rem, 1.7vw, 5vh);
+}
+
+.font-blue {
+	color: rgb(98, 235, 207);
+	font-size: 3rem;
+	
 }
 
 
@@ -245,7 +246,7 @@
 	bottom: 20px;
 	right: 20px;
 	z-index: 999;
-	/* display: none; */
+	display: none;
   }
 
 
