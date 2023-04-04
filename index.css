@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap');
+
 /*CSS Reset*/
 * {
 	margin: 0;
@@ -14,13 +16,37 @@
 
 /*Font Properties*/
 * {
-	font-family: 'montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
 /*nav bar code*/
 #navbar1 {
 	background-color: rgba(2,12,27,0.7);
+}
+
+
+.nav1 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 6rem;
+}
+
+.nav-link {
+	font-weight: 500;
+}
+
+.resume {
+	border: 1px solid white;
+	border-radius: 0.5rem;
+	color: rgb(98,235,207)!important;
+	border-color: rgb(98,235,207) ;
+}
+
+.resume:hover {
+	opacity: 50%;
+	color:aliceblue!important;
 }
 
 #cid-logo-top {
@@ -34,12 +60,13 @@
 	margin-bottom: 5rem;
 	margin-top: 5rem;
 	height: 70vh;
+	width: 95%;
 
 }
 
 #welcome-page-1 {
 	min-height: 20vh;
-	font-size: clamp(1.7rem, 5vw, 5vh);
+	font-size: clamp(1.6rem, 5vw, 5vh);
 /*	height: 100%;*/
 /*	width: 100%;*/
 }
@@ -54,15 +81,45 @@
 /*About me code*/
 #about-page {
 	margin-bottom: 5rem;
-/*	height: 60vh;*/
+	width: 90%;
+}
 
+.font-bold {
+	font-weight: 700;
 }
 
 
 #img-ian {
-	height: clamp(27vh, 35vh, 40vh);
+	height: clamp(60vh, 45vh, 35vh);
+	max-width: 100%;
 	padding-bottom: 1rem;
-}
+	position: relative;
+	z-index: 2;
+	opacity: 1;
+  }
+  
+  #img-ian::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	opacity: 0.7;
+	z-index: 1;
+  }
+  
+  #img-ian:hover::before {
+	opacity: 0;
+  }
+  
+  .center-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
 
 
 
@@ -79,7 +136,8 @@
 
 
 #smx-ul {
-	list-style-type: none;
+	/* list-style-type: none; */
+	text-align: left;
 }
 
 #alta-ul {
